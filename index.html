@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Nadeem Quamar — MERN Stack Developer & UI/UX Designer">
+  <meta name="theme-color" content="#DBCEA5">
+  <title>Nadeem Quamar — MERN Stack & UI/UX Designer</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Mono:wght@400;500&family=Lavishly+Yours&family=Cause:wght@100..900&display=swap" rel="stylesheet"/>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="#" class="nav-logo">NQ<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle theme">🌙 Night</button>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#skills" onclick="closeMenu()">Skills</a>
+    <a href="#projects" onclick="closeMenu()">Projects</a>
+    <a href="#experience" onclick="closeMenu()">Experience</a>
+    <a href="#contact" onclick="closeMenu()">Hire Me</a>
+  </div>
+
+  <section class="hero" id="home">
+    <div class="hero-label">Open to Work · Based in India</div>
+    <h1 class="hero-title">
+      Nadeem Quamar<span class="accent-dot">.</span>
+    </h1>
+    <div class="hero-sub fade-in">
+      <p>MERN Stack Developer & UI/UX Designer who turns ideas into <strong>fast, beautiful web products</strong> — from database to pixel-perfect interface.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View Work</a>
+        <a href="#contact" class="btn-outline">Let's Talk</a>
+      </div>
+    </div>
+    <div class="hero-stats fade-in">
+      <div class="stat-card">
+        <div class="stat-num">2<span>+</span></div>
+        <div class="stat-label">Years Experience</div>
+        <div class="stat-desc">Delivering polished web products with a focus on speed, accessibility, and user experience.</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">15<span>+</span></div>
+        <div class="stat-label">Projects Built</div>
+        <div class="stat-desc">From dashboards to e-commerce platforms, each project is built with thoughtful UI and clean architecture.</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">8<span>+</span></div>
+        <div class="stat-label">Happy Clients</div>
+        <div class="stat-desc">Helping teams and founders launch websites that feel professional, fast, and easy to use.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-tag">— Who I Am</div>
+    <div class="about-grid">
+      <div class="about-left fade-in">
+        <div class="about-img-frame">
+          <img src="Profile1.png" alt="Nadeem Quamar" class="about-img">
+        </div>
+        <div class="about-img-accent"></div>
+      </div>
+      <div class="about-right fade-in">
+        <h2 class="section-title">About Me.</h2>
+        <p>I'm <strong>Nadeem Quamar</strong> — a MERN Stack Developer & UI/UX Designer who turns ideas into <strong>fast, beautiful web products</strong> — from database to pixel-perfect interface.</p>
+        <p>I build <strong>end-to-end applications</strong> with clean code, intuitive design, and meticulous attention to detail. Every project combines scalable backend architecture with responsive, user-centric frontends that people love to use.</p>
+        <p>Focused on delivering polished digital experiences that help brands move forward, I bring together engineering excellence and design thinking to create products that are fast, accessible, and easy to build upon.</p>
+        <div class="about-tags">
+          <span class="tag">MERN Stack</span>
+          <span class="tag">UI/UX Design</span>
+          <span class="tag">React</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">Responsive Web</span>
+          <span class="tag">Remote-Ready</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="section-tag">— What I Do</div>
+    <h2 class="section-title">Skills & Technologies</h2>
+    <div class="skills-grid fade-in">
+      <div class="skill-group">
+        <div class="group-left">
+          <div class="group-title">Frontend</div>
+        </div>
+        <div class="group-right">
+          <div class="group-techs">
+            <span class="tech-chip"><span class="tech-icon">💻</span>HTML</span>
+            <span class="tech-chip"><span class="tech-icon">🟨</span>JavaScript</span>
+            <span class="tech-chip"><span class="tech-icon">🎨</span>CSS</span>
+            <span class="tech-chip"><span class="tech-icon">📱</span>Responsive</span>
+            <span class="tech-chip"><span class="tech-icon">⚛</span>React</span>
+            <span class="tech-chip"><span class="tech-icon">🚀</span>Next.js</span>
+            <span class="tech-chip"><span class="tech-icon">🎯</span>TypeScript</span>
+            <span class="tech-chip"><span class="tech-icon">✨</span>Tailwind</span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="group-left">
+          <div class="group-title">Backend</div>
+        </div>
+        <div class="group-right">
+          <div class="group-techs">
+            <span class="tech-chip"><span class="tech-icon">🧠</span>Node.js</span>
+            <span class="tech-chip"><span class="tech-icon">⚙️</span>Express</span>
+            <span class="tech-chip"><span class="tech-icon">🔐</span>JWT</span>
+            <span class="tech-chip"><span class="tech-icon">🌐</span>REST API</span>
+            <span class="tech-chip"><span class="tech-icon">🔌</span>Socket.io</span>
+            <span class="tech-chip"><span class="tech-icon">🧩</span>Middleware</span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="group-left">
+          <div class="group-title">Database</div>
+        </div>
+        <div class="group-right">
+          <div class="group-techs">
+            <span class="tech-chip"><span class="tech-icon">🍃</span>MongoDB</span>
+            <span class="tech-chip"><span class="tech-icon">🛢</span>MySQL</span>
+            <span class="tech-chip"><span class="tech-icon">☁</span>Firebase</span>
+            <span class="tech-chip"><span class="tech-icon">⚡</span>Redis</span>
+            <span class="tech-chip"><span class="tech-icon">📊</span>Aggregations</span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="group-left">
+          <div class="group-title">Design & Tools</div>
+        </div>
+        <div class="group-right">
+          <div class="group-techs">
+            <span class="tech-chip"><span class="tech-icon">🎨</span>Figma</span>
+            <span class="tech-chip"><span class="tech-icon">🧠</span>Wireframe</span>
+            <span class="tech-chip"><span class="tech-icon">🧪</span>Prototyping</span>
+            <span class="tech-chip"><span class="tech-icon">🛠</span>Git</span>
+            <span class="tech-chip"><span class="tech-icon">🌍</span>GitHub</span>
+            <span class="tech-chip"><span class="tech-icon">☁</span>Vercel</span>
+            <span class="tech-chip"><span class="tech-icon">📦</span>Netlify</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-tag">— Selected Work</div>
+    <h2 class="section-title">Projects I've Built</h2>
+    <div class="projects-grid">
+
+      <div class="project-card fade-in">
+        <div class="project-image-wrap">
+          <img src="projects/ecommerce.svg" alt="E-Commerce Platform" class="project-image">
+        </div>
+        <div class="project-num">01 — Full Stack</div>
+        <div class="project-title">E-Commerce Platform</div>
+        <div class="project-desc">A MERN e-commerce platform with inventory management, Stripe payments and an admin dashboard.</div>
+        <div class="project-techs">
+          <span class="project-tech">React</span>
+          <span class="project-tech">Node.js</span>
+          <span class="project-tech">MongoDB</span>
+        </div>
+      </div>
+
+      <div class="project-card fade-in">
+        <div class="project-image-wrap">
+          <img src="projects/dashboard.svg" alt="Analytics Dashboard" class="project-image">
+        </div>
+        <div class="project-num">02 — Dashboard</div>
+        <div class="project-title">Analytics Dashboard</div>
+        <div class="project-desc">Real-time KPI visualizations with role-based access, export features and live updates.</div>
+        <div class="project-techs">
+          <span class="project-tech">React</span>
+          <span class="project-tech">Chart.js</span>
+          <span class="project-tech">WebSockets</span>
+        </div>
+      </div>
+
+      <div class="project-card fade-in">
+        <div class="project-image-wrap">
+          <img src="projects/fintech.svg" alt="Fintech App" class="project-image">
+        </div>
+        <div class="project-num">03 — Design</div>
+        <div class="project-title">Fintech App Design</div>
+        <div class="project-desc">End-to-end UX and prototype for a mobile banking experience, focusing on clarity and trust.</div>
+        <div class="project-techs">
+          <span class="project-tech">Figma</span>
+          <span class="project-tech">Prototyping</span>
+        </div>
+      </div>
+
+      <div class="project-card fade-in">
+        <div class="project-image-wrap">
+          <img src="projects/iot.svg" alt="IoT Monitoring" class="project-image">
+        </div>
+        <div class="project-num">04 — IoT</div>
+        <div class="project-title">IoT Monitoring System</div>
+        <div class="project-desc">Web dashboard for sensor monitoring with real-time updates and alerting.</div>
+        <div class="project-techs">
+          <span class="project-tech">React</span>
+          <span class="project-tech">Socket.io</span>
+          <span class="project-tech">MQTT</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="section-tag">— Where I've Worked</div>
+    <h2 class="section-title">Work Experience</h2>
+    <div class="exp-list">
+      <div class="exp-item fade-in">
+        <div class="exp-year">2024 — Present</div>
+        <div class="exp-right">
+          <div class="exp-role">Frontend Web Developer</div>
+          <div class="exp-company">Setupweb</div>
+          <div class="exp-desc">Developing responsive, accessible web interfaces for client projects using React and modern CSS. Contributing to component libraries, design system decisions, and full-stack feature delivery from spec to deployment.</div>
+        </div>
+      </div>
+      <div class="exp-item fade-in">
+        <div class="exp-year">2022 — 2024</div>
+        <div class="exp-right">
+          <div class="exp-role">Electrical Engineer</div>
+          <div class="exp-company">Industry — India</div>
+          <div class="exp-desc">Designed and maintained electrical systems for industrial environments. Discovered a passion for data dashboards and IoT interfaces, which sparked a focused pivot into full-stack web development.</div>
+        </div>
+      </div>
+      <div class="exp-item fade-in">
+        <div class="exp-year">Freelance</div>
+        <div class="exp-right">
+          <div class="exp-role">UI/UX Designer & Developer</div>
+          <div class="exp-company">Independent Projects</div>
+          <div class="exp-desc">Built websites and digital products for small businesses across India — handling everything from initial wireframes to live deployment, with a focus on clean, conversion-driven design.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-tag">— Get In Touch</div>
+    <div class="contact-big">Got a project?<br>Let's <span>talk.</span></div>
+    <p class="contact-sub">I'm available for full-time roles, freelance work, and remote opportunities. Based in India — ready to work with teams anywhere in the world.</p>
+    <form class="contact-form" action="#" method="post">
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+      </div>
+      <div class="form-row">
+        <label for="message">Project details</label>
+        <textarea id="message" name="message" rows="4" placeholder="Describe your project or appointment request" required></textarea>
+      </div>
+      <button type="submit" class="btn-primary contact-submit">Request Appointment</button>
+    </form>
+    <div class="contact-links">
+      <a href="https://github.com/" target="_blank" class="contact-link">GitHub</a>
+      <a href="https://linkedin.com/" target="_blank" class="contact-link">LinkedIn</a>
+      <a href="https://instagram.com/" target="_blank" class="contact-link">Instagram</a>
+      <a href="#" class="contact-link">Download CV</a>
+    </div>
+    <br>
+    <div class="contact-email-wrap">
+      <span>Email me</span>
+      <a href="mailto:nadeemqamar96@gmail.com" class="contact-email">nadeemqamar96@gmail.com</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-logo">Nadeem Quamar</div>
+    <div class="footer-copy">© 2026 · Designed & Built by Nadeem Quamar</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
